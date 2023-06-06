@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.14.0</Version>
+    <SymbolConfigObject version="4.2.0.0" runtimeid="3.5.17.10" libversion="4.2.0.0" compiler="3.5.17.10" lmm="3.5.18.30" profile="CODESYS V3.5 SP18 Patch 3+" settings="SupportOPCUA, LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="Parcial2_CPI" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="GVL">
+        <Node name="BABanda" type="T_BOOL" access="ReadWrite" />
+        <Node name="BAC1" type="T_BOOL" access="ReadWrite" />
+        <Node name="BAC2" type="T_BOOL" access="ReadWrite" />
+        <Node name="BADosificacion" type="T_BOOL" access="ReadWrite" />
+        <Node name="BAMezclador" type="T_BOOL" access="ReadWrite" />
+        <Node name="BAProducto" type="T_BOOL" access="ReadWrite" />
+        <Node name="NT" type="T_INT" access="ReadWrite" />
+        <Node name="NTD" type="T_BOOL" access="ReadWrite" />
+        <Node name="SFC1" type="T_BOOL" access="ReadWrite" />
+        <Node name="SFC2" type="T_BOOL" access="ReadWrite" />
+        <Node name="SIC1" type="T_BOOL" access="ReadWrite" />
+        <Node name="SIC2" type="T_BOOL" access="ReadWrite" />
+        <Node name="SL" type="T_BOOL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
